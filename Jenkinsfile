@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-                git 'https://github.com/****/****'
+                git 'https://github.com/Jardielson-s/jenkins.git'
             }
         }
 
